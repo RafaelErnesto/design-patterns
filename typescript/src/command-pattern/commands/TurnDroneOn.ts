@@ -1,7 +1,7 @@
 import { CommandInterface } from "../contracts/CommandInterface";
 import { RobotInterface } from "../contracts/RobotInterface";
 
-export class TurnDroneOne implements CommandInterface {
+export class TurnDroneOn implements CommandInterface {
     robot: RobotInterface
 
     constructor(robot: RobotInterface){
